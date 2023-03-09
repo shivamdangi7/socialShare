@@ -1,0 +1,26 @@
+html , body {
+    margin: 0 ;
+    height: 100vh;
+}
+.share{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+
+#buttons{
+    height: 400px;
+    width: 100px;
+}
+#buttons>.button{
+    height: 50px;
+    width: 50px;
+    border-left: 2px solid red;
+    transition: border-left 200ms ease-in-out , transform 200ms ease-in-out ;
+}
+#buttons>.button:hover{
+    margin-left: 5px;
+    transform: scale(1.2);
+    border-left: 2px solid yellow;
+}
+
